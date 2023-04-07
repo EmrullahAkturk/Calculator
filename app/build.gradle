@@ -7,6 +7,9 @@ android {
     namespace 'com.yargisoft.calculator'
     compileSdk 33
 
+    buildFeatures{
+        dataBinding true
+    }
     defaultConfig {
         applicationId "com.yargisoft.calculator"
         minSdk 24
